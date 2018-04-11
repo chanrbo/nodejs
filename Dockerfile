@@ -8,6 +8,7 @@ FROM chanrbo/python
 # Install Node.js
 RUN \
   cd /tmp && \
+  apt-get install wget && \
   wget http://nodejs.org/dist/node-latest.tar.gz && \
   tar xvzf node-latest.tar.gz && \
   rm -f node-latest.tar.gz && \
