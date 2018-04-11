@@ -1,7 +1,6 @@
 # Node.js Dockerfile
 #
-# https://github.com/dockerfile/nodejs
-#
+# https://github.com/chanrbo/nodejs
 
 # Pull base image.
 FROM chanrbo/python
